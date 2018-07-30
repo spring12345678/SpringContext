@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="aid" class="com.beans.A">
+		<property name="b" ref="bId"></property>
+		<property name="c1" ref="cc"></property>
+	</bean>
+	<bean id="bId" class="com.beans.B"></bean>
+	<bean id="cc" class="com.beans.C"></bean>
+		
+</beans>
